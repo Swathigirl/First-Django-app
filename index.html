@@ -1,0 +1,16 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width= device-width initial-scale = 1.0"><title>Introduction</title>
+    {% load static %}
+     <link rel="stylesheet" href="{% static "style.css" %}" type="text/css">
+     </head>
+  <body><h1></h1><i><u>Hello Guys!</u></i></h1><p>
+  </p>
+  {% for contents in content%}
+{{ contents.content}}
+<p></p>
+  {% endfor %}
+ </body>
+</html>
